@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+import Navbar from './Navbar.tsx';
 
 class App extends Component {
   render() {
-    return 
+    return (
+      <div>
+      <Navbar />
+      
+      </div>
+    )
   }
 }
 
