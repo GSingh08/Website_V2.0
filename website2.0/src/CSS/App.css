@@ -1,0 +1,12 @@
+body,html {
+    height:0;
+    width:0;
+}
+
+.main-div{
+    background-color:darkgray;
+    height:100vh;
+    width:100vw;
+    display:flex;
+   
+}
