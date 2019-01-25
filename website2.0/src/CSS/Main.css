@@ -1,22 +1,69 @@
 .mp-div{
     height:100%;
     width:100%;
-    color:#3F3F41;
-    background-color:#252627;
+    background-image: url("natalie-riedel-1312982-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     display:flex;
-    flex-direction:column;
-    justify-content:center;
+    flex-direction:row;
+    justify-content: start;
+    
 }
 
 .mp-text-div{
-    width:40%;
+    width:50%;
     height:40%; 
-    
+    text-align: start;
+    margin-left:5%;
     
 }
 
 .mp-txt{
-    margin: 5%;
-    color: #3F3F41;
-    font-size:25px;
+    padding-left:10%;
+    width:50px;
+    color:#233237;
+    font-size:40px;
 }
+
+.mp-info-div{
+    
+    height:30%;
+    width:40%;
+    text-align:center;
+    padding-top:20%;
+}
+.mp-info-text{
+    color:#233237;
+    font-size:32px;
+    
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 768px) {
+    .mp-div{
+        height:100%;
+        width:100vw;
+        background-image: url("natalie-riedel-1312982-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        
+    }
+    
+    .mp-text-div{
+        width:600px;
+        height:300px; 
+        border: 1px solid black;
+        margin:100px;
+        
+    }
+    
+    .mp-txt{
+        width:50px;
+        margin:100px;
+        color:#233237;
+        font-size:25px;
+    }
+    
+   } */
