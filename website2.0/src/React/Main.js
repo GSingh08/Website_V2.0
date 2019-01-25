@@ -19,7 +19,9 @@ class Main extends Component {
           </div>
           <br/>
           <div className='mp-info-div'>
-          <span className='mp-info-text'>I Specialize in</span>
+          <span className='mp-info-text'>I'm a Front-End Developer</span>
+          <br/>
+          <span className='mp-info-text'>Who Specializes in</span>
           <br/>
           <span className='mp-info-text'>HTML/CSS, JavaScript, React</span>
           </div>

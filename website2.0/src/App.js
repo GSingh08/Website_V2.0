@@ -10,7 +10,9 @@ import Resume from './React/Resume.js';
 import Navbar from './React/Navbar.js';
 import Project from './React/Project.js';
 
+
 class App extends Component {
+  
   render() {
     return (
       <Router>

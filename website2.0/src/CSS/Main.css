@@ -1,7 +1,7 @@
 .mp-div{
     height:100%;
     width:100%;
-    background-image: url("natalie-riedel-1312982-unsplash.jpg");
+    background-image: url("joshua-sortino-228788-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display:flex;
@@ -13,7 +13,7 @@
 .mp-text-div{
     width:50%;
     height:40%; 
-    text-align: start;
+    text-align: center;
     margin-left:5%;
     
 }
@@ -22,7 +22,8 @@
     padding-left:10%;
     width:50px;
     color:#233237;
-    font-size:40px;
+    font-size:38px;
+    
 }
 
 .mp-info-div{
@@ -34,36 +35,37 @@
 }
 .mp-info-text{
     color:#233237;
-    font-size:32px;
+    font-size:30px;
+    padding:2% auto;
     
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .mp-div{
         height:100%;
         width:100vw;
-        background-image: url("natalie-riedel-1312982-unsplash.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color:lightblue;
+        background-image: none;
         display:flex;
         flex-direction:column;
-        justify-content:center;
+        
         
     }
     
     .mp-text-div{
-        width:600px;
-        height:300px; 
-        border: 1px solid black;
-        margin:100px;
-        
+        margin:0 auto;
+        width:80%;
+        height:30%; 
+        text-align: center;
+         
     }
     
-    .mp-txt{
-        width:50px;
-        margin:100px;
-        color:#233237;
-        font-size:25px;
+    
+    .mp-info-div{
+        margin:0 auto;
+        height:50%;
+        width:80%;
+        text-align:center;
     }
     
-   } */
+   } 
