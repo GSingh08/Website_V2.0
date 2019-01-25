@@ -27,8 +27,9 @@ class Navbar extends Component {
                     backdrop = <Backdrop click={this.backdropClickHandler}/>;
                }
       return (
+       
         <div className='nav-div'>
-          <div className='mobile-nav-div'>
+             <div className='mobile-nav-div'>
               <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
               <SideDrawer show={this.state.sideDrawerOpen} />
               {backdrop}
@@ -50,6 +51,7 @@ class Navbar extends Component {
                       </div>
                   </ul>         
         </div>
+        
       )
     }
   }

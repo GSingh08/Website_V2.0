@@ -24,6 +24,9 @@ class Main extends Component {
           <span className='mp-info-text'>Who Specializes in</span>
           <br/>
           <span className='mp-info-text'>HTML/CSS, JavaScript, React</span>
+          <br/>
+          <span><button className='learn-more-btn'>Learn More</button></span>
+          <span><button className='contact-me-btn'>Contact Me</button></span>
           </div>
         </div>
       )
