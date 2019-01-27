@@ -43,7 +43,7 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .mp-div{
         height:100%;
-        width:100vw;
+        width:100%;
         background-color:lightblue;
         background-image: none;
         display:flex;
