@@ -1,0 +1,43 @@
+.projects-div{
+height:100%;
+width:100%;
+background-image: url("natalie-riedel-1312982-unsplash.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+overflow:scroll;
+}
+.project-header-title{
+    font-size:28px;
+}
+.projects-header{
+    font-size:20px;
+    padding: 1% 8%;
+}
+.projects-title{
+    width:100%;
+    height:10%;
+    border:1px solid black;
+
+}
+.project1,.project2,.project3,.project4{
+    margin:1% auto;
+    width:350px;
+    height:40%;
+    background-color:white;
+    opacity: .85;
+    
+}
+.project1-img{
+    width:100%;
+}
+.project1-title{
+    padding-left:2%;
+}
+.project1-desc{
+    padding: 1% 3%;
+    font-size:15px;
+}
+
