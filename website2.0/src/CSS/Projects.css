@@ -25,19 +25,24 @@ overflow:scroll;
 .project1,.project2,.project3,.project4{
     margin:1% auto;
     width:350px;
-    height:40%;
-    background-color:white;
+    height:45%;
+    background-color:#F5F5F5;
     opacity: .85;
     
 }
-.project1-img{
+.project1-img,.project2-img,.project3-img,.project4-img{
     width:100%;
+    height:40%;
 }
-.project1-title{
+.project1-title,.project2-title,.project3-title,.project4-title{
     padding-left:2%;
 }
-.project1-desc{
-    padding: 1% 3%;
+.project1-desc,.project2-desc,.project3-desc,.project4-desc{
+    padding: 1% 2%;
     font-size:15px;
 }
 
+.website-a{
+    text-decoration: none;
+    color:black;
+}

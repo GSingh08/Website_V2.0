@@ -36,17 +36,17 @@ class Navbar extends Component {
           </div>
                   <ul>
                       <div className='nav-logo'>
-                        <li><Link className='nav-logo' to="/">Logo</Link></li>
+                        <li><Link className='nav-logo' to="/"><i className="fab fa-gofore fa-4x"></i></Link></li>
                       </div> 
                       <div className='nav-link'>
-                        <li><Link className='nav-link' to="/">Home</Link></li>
-                        <li><Link className='nav-link' to="/About">About</Link></li>
-                        <li><Link className='nav-link' to="/Projects">Projects</Link></li>
+                        <li><Link className='nav-link' to="/"><i className="fas fa-home fa-2x"></i></Link></li>
+                        <li><Link className='nav-link' to="/About"><i className="fas fa-user-circle fa-2x"></i></Link></li>
+                        <li><Link className='nav-link' to="/Projects"><i className="fas fa-book fa-2x"></i></Link></li>
                       </div>
                       <div className='bottom-nav-links'>
-                        <li><a className='bottom-nav-links' href="https://github.com/gsingh08">Github</a></li>
-                        <li><a className='bottom-nav-links'  href="https://www.linkedin.com/in/gurjot-singh-/">LinkedIn</a></li>
-                        <li><a className='bottom-nav-links' href="mailto:gurjotssidhu08@gmail.com">Email</a></li>
+                        <li><a className='bottom-nav-links' href="https://github.com/gsingh08"><i className="fab fa-github fa-2x"></i></a></li>
+                        <li><a className='bottom-nav-links'  href="https://www.linkedin.com/in/gurjot-singh-/"><i className="fab fa-linkedin fa-2x"></i></a></li>
+                        <li><a className='bottom-nav-links' href="mailto:gurjotssidhu08@gmail.com"><i className="fas fa-envelope fa-2x"></i></a></li>
                       </div>
                   </ul>         
         </div>
