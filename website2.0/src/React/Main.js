@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../CSS/Main.css';
 
 
@@ -24,9 +25,11 @@ class Main extends Component {
           <span className='mp-info-text'>Who Specializes in</span>
           <br/>
           <span className='mp-info-text'>HTML/CSS, JavaScript, React</span>
-          <br/>
-          <span><button className='learn-more-btn'>Learn More</button></span>
-          <span><button className='contact-me-btn'>Contact Me</button></span>
+          <br/><br/>
+              <Link to='/About'className='mp-learn-link' >Learn More</Link>
+              <Link to='/Contact' className='mp-contact-link'>Contact Me</Link>
+            
+          
           </div>
         </div>
       )

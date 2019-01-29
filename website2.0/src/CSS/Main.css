@@ -36,9 +36,16 @@
 .mp-info-text{
     color:#233237;
     font-size:30px;
-    padding:2% auto;
+    padding:2% auto; 
+}
+.mp-learn-link,.mp-contact-link{
+    width:100%;
+    text-decoration: none;
+    color: #233237;
+    margin: 0 2%;
     
 }
+
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .mp-div{

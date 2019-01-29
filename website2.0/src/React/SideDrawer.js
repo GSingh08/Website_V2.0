@@ -15,9 +15,9 @@ class SideDrawer extends React.Component {
           <nav className={drawerClasses}>
             <ul className='side-drawer-ul'>
                 <li className='side-drawer-li'><a href='/' className='side-drawer-a'>Home</a></li>
-                <li className='side-drawer-li'><a href='/' className='side-drawer-a'>About</a> </li>
-                <li className='side-drawer-li'><a href='/' className='side-drawer-a'>Contact</a></li>
-                <li className='side-drawer-li'><a href='/' className='side-drawer-a'>Projects</a></li>
+                <li className='side-drawer-li'><a href='/About' className='side-drawer-a'>About</a> </li>
+                <li className='side-drawer-li'><a href='/Contact' className='side-drawer-a'>Contact</a></li>
+                <li className='side-drawer-li'><a href='/Projects' className='side-drawer-a'>Projects</a></li>
             </ul>
               
           </nav>
