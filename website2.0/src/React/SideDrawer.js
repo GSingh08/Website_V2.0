@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import '../CSS/SideDrawer.css';
 
 
@@ -14,10 +15,13 @@ class SideDrawer extends React.Component {
         
           <nav className={drawerClasses}>
             <ul className='side-drawer-ul'>
-                <li className='side-drawer-li'><a href='/' className='side-drawer-a'>Home</a></li>
-                <li className='side-drawer-li'><a href='/About' className='side-drawer-a'>About</a> </li>
-                <li className='side-drawer-li'><a href='/Contact' className='side-drawer-a'>Contact</a></li>
-                <li className='side-drawer-li'><a href='/Projects' className='side-drawer-a'>Projects</a></li>
+                        <li className='side-drawer-li'><Link className='side-drawer-a' to="/"><i className="fab fa-gofore fa-4x"></i></Link></li>
+                        <li className='side-drawer-li'><Link className='side-drawer-a' to="/">Home</Link></li>
+                        <li className='side-drawer-li'><Link className='side-drawer-a' to="/about">About</Link></li>
+                        <li className='side-drawer-li'><Link className='side-drawer-a' to="/projects">Projects</Link></li>
+                        <li className='side-drawer-li'><a className='side-drawer-a' href="https://github.com/gsingh08">Github</a></li>
+                        <li className='side-drawer-li'><a className='side-drawer-a' href="https://www.linkedin.com/in/gurjot-singh-/">LinkedIn</a></li>
+                        <li className='side-drawer-li'><a className='side-drawer-a' href="mailto:gurjotssidhu08@gmail.com">My Email</a></li>
             </ul>
               
           </nav>

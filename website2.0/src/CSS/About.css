@@ -31,23 +31,26 @@
         width:100%;
         background-image:none;
         background-color: lightblue;
+        overflow: hidden;
     }
     .about-p-div{
         width:100%;
-        height:65j%;
+        height:65%;
         align-self:center;
        
     }
     .about01{
         text-align: center;
         padding:1% 3%;
+        font-size:14px;
     }
    
     .skills-p-div{
         margin-top:1%;
         width:90%;
-        height:30%;
+        height:40%;
         align-self:center; 
+        font-size:14px;
     }
     
    } 
